@@ -45,18 +45,18 @@
 
 .schedule__card{
     background: white;
-    height: 350px;
-    width: 250px;
+    height: 21.875rem;
+    width: 15.625rem;
     padding:1rem;
     padding-bottom:4rem;
     text-align:center;
     display:flex;
     flex-direction: column;
-    border-radius:5px;
+    border-radius: .3125rem;
 }
 
 .schedule__card h3{
-    border-bottom:3px solid black;
+    border-bottom:0.1875rem solid black;
 }
 
 
