@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Verdana';
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /*position: fixed; -- causing issues with elements*/
+    background-color: #FFFFFF;
+    padding: 0 5rem;
+}
+
+.navbar__logo__name{
+    color: #335576;
+}
+
+.navbar__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+       
+}
+
+.navbar__menu__options{
+    font-size: 1rem;
+    display:inline-block;
+    padding: 1rem;
+}
+
+
+.navbar__logo{
+    display:flex;
+    align-items: center;
+    padding:1rem;
+}
+
+.menu__options-styling{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    /*currently active page has to be underlined orange*/
+}
+
+.menu__options-styling--active{
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    text-decoration: underline;
+    text-decoration-color: #DB7A4E;
+    text-underline-offset: 0.75rem;
+    text-decoration-thickness: .25rem;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FEFAF5;
+    padding:2rem 11rem;
+
+}
+
+.navbar{
+    position:fixed;
+}
+
+.navbar__logo a{
+    text-decoration: none;
+}
+
+.info-title{
+    color: #335576;
+}
+
+.info-orange{
+ color: #DB7A4E;
+ font-size: .625rem;
+ padding-top:1rem;
+}
+
+.info-blue{
+    color: #335576;
+    padding-top:0.5rem;
+}
+
+.footer__contact{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer__hours{
+    display:flex;
+    flex-direction:column;
+    width: 30rem;
+
+}
+
+.hours-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.social{
+    display:flex;
+    flex-direction: column;
+    width: 8rem;
+}
+
+.social__images{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:2rem;
+}
+
+.social__images img{
+    width: 1.5625rem;
+    height: 1.5625rem;
+    object-fit: scale-down;
+}
