@@ -1,0 +1,61 @@
+.destination-container{
+    height:82vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.background-hawaii{
+    background:url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.destination__title{
+    color:white;
+    font-size:4rem;
+    padding: 2rem 0.5rem;
+
+}
+
+.destination-schedule{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height:30rem;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.schedule__card{
+    background: white;
+    height: 350px;
+    width: 250px;
+    padding:1rem;
+    padding-bottom:4rem;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+}
+
+.schedule__card h3{
+    border-bottom:3px solid black;
+}
+
+
+.schedule-card__items{
+    display:flex;
+    flex-direction: column;
+    list-style:none;
+    height:100%;
+    justify-content: space-between;
+    padding-top:1rem;
+}
+.schedule-card__items__item{
+    height:3.125rem;
+    background-color: #FEFAF5;
+    padding-top:1rem;
+    text-align: center;
+}
