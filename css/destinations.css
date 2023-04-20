@@ -52,6 +52,7 @@
     text-align:center;
     display:flex;
     flex-direction: column;
+    border-radius:5px;
 }
 
 .schedule__card h3{
